@@ -1,0 +1,17 @@
+:root{
+    --branco: white;
+    --cinza: #746b6b;
+    --azul: #0f5ebe;
+    --fundo: #00030C;
+}
+
+body{
+    background-color: var(--fundo);
+    color: var(--branco);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
