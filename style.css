@@ -14,4 +14,19 @@ body{
     margin: 0;
     padding: 0;
 }
+.principal{
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.container{
+    height: 100vh;
+}
 
+.container__botao{
+    background-color: #0f5ebe;
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco);
+    display: block;
+}
