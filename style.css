@@ -1,32 +1,13 @@
+@import url("style/header.css");
 :root{
-    --branco: white;
-    --cinza: #746b6b;
-    --azul: #0f5ebe;
-    --fundo: #00030C;
+    --cinza:#e9e9e9; 
+    --branco:white;
 }
-
-body{
-    background-color: var(--fundo);
-    color: var(--branco);
-}
-
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.principal{
-    background-image: url("img/Background.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.container{
-    height: 100vh;
-}
-
-.container__botao{
-    background-color: #0f5ebe;
-    border-radius: 5px;
-    padding: 1em;
-    color: var(--branco);
-    display: block;
+body{
+    background-color: var(--cinza);
 }
