@@ -1,7 +1,12 @@
 @import url("style/header.css");
+@import url("style/banner.css");
+
 :root{
     --cinza:#e9e9e9; 
     --branco:white;
+    --laranja: #EB9B00;
+    --azul: linear-gradient(97.54deg, #002f52 35.49%, #3265B9 165.37%);
+    --fonte-principal: "Poppins";
 }
 *{
     margin: 0;
@@ -10,4 +15,7 @@
 }
 body{
     background-color: var(--cinza);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
